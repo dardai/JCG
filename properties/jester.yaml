@@ -1,0 +1,5 @@
+user_inter_num_interval: "[0,80)"
+
+num_clusters: 30
+
+density_sample_ratio: 0.09

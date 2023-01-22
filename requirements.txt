@@ -1,0 +1,9 @@
+nltk>=3.4.5
+numpy>=1.16.4
+gensim>=3.7.3
+tensorflow>=2.2.0
+recbole>=1.0.0
+Python>=3.7.7
+torch>=1.11.0
+faiss-gpu>=1.7.1
+cudatoolkit>=10.1

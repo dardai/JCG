@@ -1,0 +1,23 @@
+eval_setting:
+  split:
+    RS: [ 0.8, 0.1, 0.1 ]
+  order: RO
+  group_by: user
+  mode: full
+
+epochs: 300
+
+learner: Adam
+learning_rate: 0.002
+
+seed: 2022
+
+embedding_size: 64
+
+train_batch_size: 10240
+
+eval_batch_size: 4096000
+
+valid_metric: NDCG@20
+metrics: [ "Recall", "NDCG"]
+topk: [ 10, 20, 50 ]
