@@ -5,18 +5,22 @@ Implementation of JCG, A Joint Framework of Structural and Semantic Contrastive 
 
 ### Main File Contents
 
-- `/bug_Augmentation/preprocess.py` includes text cleaning, tokenization and parts for bug report preprocessing.
-- `/bug_Augmentation/augment_main.py` implement prototype clustering-based augmentation.
-- `pcg.py` is the joint model of GCF backbone and semantic CL module
-- `main.py` is the training and validating progresses for PCG.
+- `/graph_Augmentation` implements edge-perturbation-based graph augmentation.
+- `/reckit` contains CPP-based auxiliary packages for graph augmentation.
+- `/properties` contains model training settings for various datasets.
+- `JCG.py` is the framework that integrates a GCF backbone with joint CL strategies
+- `trainer.py` implements the training and validating progresses for JCG.
+- `main.py` load dataset and training settings for JCG.
 
 ### How to use
 
 1. Install required packages (Using a virtual environment is recommended).
-   `pip install -r requirements.txt`
+   ````python
+   pip install -r requirements.txt
+   ````
 2. Download datasets package from [here](https://pan.baidu.com/s/1SQsafQh8J3qT3LtmQz-C-A?pwd=1223), 
    then put them into the root of the project repository.
-3. Run `main.py`.
+3. Run `main.py` to train JCG and obtain results in logs.
    ```python
    python main.py --dataset jester
    ```
