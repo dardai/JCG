@@ -1,6 +1,4 @@
 # distutils: language = c++
-__author__ = "Zhongchuan Sun"
-__email__ = "zhongchuansun@gmail.com"
 
 from libcpp.unordered_set cimport unordered_set as cset
 from libcpp.vector cimport vector as cvector

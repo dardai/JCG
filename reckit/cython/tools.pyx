@@ -1,6 +1,4 @@
 # distutils: language = c++
-__author__ = "Zhongchuan Sun"
-__email__ = "zhongchuansun@gmail.com"
 
 import numpy as np
 

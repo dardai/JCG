@@ -1,6 +1,3 @@
-/*
-@author: Zhongchuan Sun
-*/
 #ifndef SORT_H
 #define SORT_H
 

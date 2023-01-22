@@ -1,6 +1,3 @@
-__author__ = "Zhongchuan Sun"
-__email__ = "zhongchuansun@gmail.com"
-
 __all__ = ["randint_choice", "batch_randint_choice"]
 
 from reckit.cython import pyx_randint_choice, pyx_batch_randint_choice

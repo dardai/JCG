@@ -1,6 +1,3 @@
-__author__ = "Zhongchuan Sun"
-__email__ = "zhongchuansun@gmail.com"
-
 __all__ = ["sort", "arg_sort", "top_k", "arg_top_k"]
 
 from reckit.cython.sort import pyx_sort, pyx_arg_sort, pyx_top_k, pyx_arg_top_k

@@ -1,6 +1,3 @@
-"""
-Reference: https://github.com/agile-geoscience/striplog/blob/master/striplog/hatches.py
-"""
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt

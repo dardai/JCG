@@ -1,6 +1,3 @@
-/*
-@author: Zhongchuan Sun
-*/
 #ifndef EVALUATE_H
 #define EVALUATE_H
 

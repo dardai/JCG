@@ -1,6 +1,3 @@
-/*
-@author: Zhongchuan Sun
-*/
 #ifndef RANDINT_H
 #define RANDINT_H
 
