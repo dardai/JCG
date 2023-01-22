@@ -20,10 +20,15 @@ Implementation of JCG, A Joint Framework of Structural and Semantic Contrastive 
    ````
 2. Download datasets package from [here](https://pan.baidu.com/s/1SQsafQh8J3qT3LtmQz-C-A?pwd=1223), 
    then put them into the root of the project repository.
-3. Run `main.py` to train JCG and obtain results in logs.
+3. Complie the cpp-based auxiliary packages for graph augmentation.
    ```python
-   python main.py --dataset jester
+   python local_compile_setup.py build_ext --inplace
    ```
+4. Run `main.py` to train JCG and obtain results in logs.
+   ```python
+      python main.py --dataset jester
+   ```
+
 
 ### Acknowledgement
 
